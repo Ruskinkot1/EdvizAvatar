@@ -11,7 +11,7 @@ export default function NavBar() {
     <>
       <div className="flex flex-row justify-between items-center w-[1000px] m-auto p-6">
         <div className="flex flex-row items-center gap-4">
-          <Link href="https://app.heygen.com/" target="_blank">
+          <Link href="https://github.com/" target="_blank">
             <HeyGenLogo />
           </Link>
           <div className="bg-gradient-to-br from-sky-300 to-indigo-500 bg-clip-text">
@@ -22,25 +22,25 @@ export default function NavBar() {
         </div>
         <div className="flex flex-row items-center gap-6">
           <Link
-            href="https://labs.heygen.com/interactive-avatar"
+            href="https://github.com"
             target="_blank"
           >
             Avatars
           </Link>
           <Link
-            href="https://docs.heygen.com/reference/list-voices-v2"
+            href="https://github.com"
             target="_blank"
           >
             Voices
           </Link>
           <Link
-            href="https://docs.heygen.com/reference/new-session-copy"
+            href="https://github.com/"
             target="_blank"
           >
             API Docs
           </Link>
           <Link
-            href="https://help.heygen.com/en/articles/9182113-interactive-avatar-101-your-ultimate-guide"
+            href="https://github.com/"
             target="_blank"
           >
             Guide
@@ -48,7 +48,7 @@ export default function NavBar() {
           <Link
             aria-label="Github"
             className="flex flex-row justify-center gap-1 text-foreground"
-            href="https://github.com/HeyGen-Official/StreamingAvatarSDK"
+            href="https://github.com/"
             target="_blank"
           >
             <GithubIcon className="text-default-500" />
